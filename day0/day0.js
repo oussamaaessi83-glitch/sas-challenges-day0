@@ -1,52 +1,48 @@
-// simple conditions
+// switch
 
-// numbers conditions
-console.log("numbres conditions")
-let age1 = 18;
-if(age1 >= 20){console.log("ok");}
-else(age1 < 20)
-{console.log("the number is < 20");}
+//  months names 
+console.log("months names")
+let months=1;
 
+switch(months){
+    case 1:console.log("January");
+    break;
 
-let age2 = 11;
-if(age2 == 9){console.log("it is  9");}
-else if(age2 == 10){console.log("this is 10");}
-  
-else{console.log("it is not 10 OR 9");}
+        case 2:console.log("February");
+    break;
 
+        case 3:console.log("March");
+    break;
 
-
-// string conditions
-console.log("string conditions")
-let name = "oussama";
-if(name="oussama"){console.log("hi " + name);}
-else if(name = "aessi"){console.log("welcome " + name);}
-else{console.log("sorry,you are not oussam or aessi");}
+        case 4:console.log("April");
+    break;
 
 
-// null conditions
-console.log("null conditions")
-const year = null;
-if( typeof year == null){console.log("type of variable is  " + year0 );}
-else if(typeof year != null){console.log("ok it not a null");}
-else {console.log("the type of var is  " + typeof year);}
+        case 5:console.log("may");
+    break;
 
-// complex conditions
-console.log("complex conditions ")
-console.log("complex")
-let x = 12;
-if(x == 12 || x == 11){
-    if(x == 12){console.log("ok x equal " + x);}
-    else if(x == 11){console.log("ok w equal "+ x);}
-    else{console.log("sorry this is error")}
-;}
-else if(x == 10 || x == 9  ){
-    if(x == 10){console.log("ok x equal " + x);}
-    else if(x == 11){console.log("ok w equal "+ x);}
-    else{console.log("sorry this is error");}
+        case 6:console.log("June");
+    break;
 
-;}
-else{console.log("x dosen't equal 9 OR 10 OR 11 OR 12 ");}
+        case 7:console.log("July");
+    break;
+
+        case 8:console.log("August");
+    break;
+
+          case 9:console.log("September");
+    break;
+
+      case 10:console.log("October");
+    break;
+
+      case 11:console.log("November");
+    break;
+
+      case 12:console.log("December");
+    break;
+
+    default:console.log("the number of variable is not definied")
 
 
 
@@ -54,4 +50,7 @@ else{console.log("x dosen't equal 9 OR 10 OR 11 OR 12 ");}
 
 
 
+
+
+}
 
