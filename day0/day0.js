@@ -7,8 +7,6 @@ let city = "youssoufia";
 let country = "moroco";
 let bacculaureate = "science humaines";
 let school = "Youcode"; 
-let schoolLocation = "youssoufia";
-
 
 
 console.log("Name: " + name);
@@ -20,5 +18,4 @@ console.log("city : " + city);
 console.log("country: " + country);
 console.log("bacculaureate: " + bacculaureate);
 console.log("School : " + school) ;
-console.log("School Location: " + schoolLocation);
 
